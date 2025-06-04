@@ -1,14 +1,6 @@
 // App.js
+import Game from "./components/Game";
 
-import './App.css';
-import SpeedTypingGame from './components/SpeedTypingGame';
-
-function App() {
-  return (
-    <div className="App">
-      <SpeedTypingGame />
-    </div>
-  );
+export default function App() {
+return <Game />
 }
-
-export default App;
